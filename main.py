@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route('/unifran') 
 def unifran():
-  return '<h1>Universidade de Franca</h1>'
+  return '<h2>Universidade de Franca</h2>'
 
 @app.route('/dashboard/<name>') 
 def name(name):
