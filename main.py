@@ -5,10 +5,9 @@ app = Flask('app')
 def index():
     return render_template('index.html')
 
-@app.route('/unifran') 
+@app.route('/unifran')
 def unifran():
-  return '<h2>Universidade de Franca</h2>'
-
+    return render_template('unifran.html')
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=8080)
