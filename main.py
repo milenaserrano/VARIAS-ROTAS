@@ -2,8 +2,8 @@ from flask import Flask
 app = Flask('app')
 
 @app.route('/') 
-def hello_world():
-  return '<h1>Olá Mundo!</h1>'
+def template():
+  return '<h1> Meu primeiro template </h1>'
 
 @app.route('/unifran') 
 def unifran():
